@@ -1,0 +1,14 @@
+{
+    "vocabulary": {
+        "color": "colour",
+        "optimize": "optimise",
+        "center": "centre"
+    },
+    "replacements": [
+        ["\\b([A-Za-z]+)ize\\b", "\\1ise"],
+        ["\\b([A-Za-z]+)yze\\b", "\\1yse"]
+    ],
+    "sentence_structure": {
+        "preferred_terms": ["brilliant", "lovely", "cheers"]
+    }
+}

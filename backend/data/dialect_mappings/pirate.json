@@ -1,0 +1,14 @@
+{
+    "vocabulary": {
+        "my": "me",
+        "friend": "matey",
+        "is": "be"
+    },
+    "replacements": [
+        ["\\bhello\\b", "ahoy"],
+        ["\\bthe\\b", "thar"]
+    ],
+    "sentence_structure": {
+        "preferred_terms": ["arr", "matey", "ahoy"]
+    }
+}

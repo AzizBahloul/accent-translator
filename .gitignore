@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Node
+node_modules/
+frontend/out/
+frontend/dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# Misc
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test
+coverage/
+htmlcov/
+
+# Others
+*.bak
+*.tmp
+
+# Ignore data artifacts
+backend/data/dialect_mappings/*.bak
+backend/data/dialect_mappings/*.tmp

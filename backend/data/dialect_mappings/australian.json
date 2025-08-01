@@ -1,0 +1,14 @@
+{
+    "vocabulary": {
+        "flip-flops": "thongs",
+        "barbecue": "barbie",
+        "friend": "mate"
+    },
+    "replacements": [
+        ["\\bhello\\b", "g'day"],
+        ["\\bafternoon\\b", "arvo"]
+    ],
+    "sentence_structure": {
+        "preferred_terms": ["no worries", "mate"]
+    }
+}

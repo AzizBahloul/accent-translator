@@ -1,0 +1,40 @@
+{
+  "name": "accent-translator",
+  "displayName": "Accent Translator",
+  "description": "Translate code comments into fun dialects!",
+  "version": "0.1.0",
+  "publisher": "azizbahloul",
+  "engines": {
+    "vscode": ">=1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:accent-translator.translate"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "accent-translator.translate",
+        "title": "Accent Translator: Translate Comments"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "debug": "^4.4.1"
+  }
+}
